@@ -1,0 +1,30 @@
+img {
+            height: 400px;
+            width: 400px;
+        }
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 80px;
+}
+
+@media only screen and (max-width: 900px){
+    .container{
+        font-size: 70px;
+    }
+     img {
+            height: 200px;
+            width: 200px;
+        }
+}
+
+@media only screen and (max-width: 400px){
+    .container{
+        font-size: 40px;
+    }
+     img {
+            height: 100px;
+            width: 100px;
+        }
+}
